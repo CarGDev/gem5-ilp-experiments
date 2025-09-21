@@ -1,0 +1,38 @@
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The se.py script is deprecated. It will be removed in future releases of  gem5.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+src/arch/x86/interrupts.cc:330: panic: panic condition !intRequestPort.isConnected() occurred: Int port not connected to anything!
+Memory Usage: 647564 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+/home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt(+0x10606d0)[0x5cd5756d56d0]
+/home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt(+0x108730c)[0x5cd5756fc30c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7294fc045330]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c)[0x7294fc09eb2c]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e)[0x7294fc04527e]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xdf)[0x7294fc0288ff]
+/home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt(+0x4da0e5)[0x5cd574b4f0e5]
+/home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt(+0x13099c8)[0x5cd57597e9c8]
+/home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt(+0x1c8ee41)[0x5cd576303e41]
+/home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt(+0x50591e)[0x5cd574b7a91e]
+/lib/x86_64-linux-gnu/libpython3.12.so.1.0(+0x1df4b8)[0x7294fcfdf4b8]
+/lib/x86_64-linux-gnu/libpython3.12.so.1.0(_PyObject_MakeTpCall+0x8f)[0x7294fcf827df]
+/lib/x86_64-linux-gnu/libpython3.12.so.1.0(_PyEval_EvalFrameDefault+0x40ee)[0x7294fcf1d5ee]
+/lib/x86_64-linux-gnu/libpython3.12.so.1.0(PyEval_EvalCode+0x20f)[0x7294fd0a091f]
+/lib/x86_64-linux-gnu/libpython3.12.so.1.0(+0x29c8b0)[0x7294fd09c8b0]
+/lib/x86_64-linux-gnu/libpython3.12.so.1.0(+0x1dfadc)[0x7294fcfdfadc]
+/lib/x86_64-linux-gnu/libpython3.12.so.1.0(PyObject_Vectorcall+0x5c)[0x7294fcf82b2c]
+/lib/x86_64-linux-gnu/libpython3.12.so.1.0(_PyEval_EvalFrameDefault+0x40ee)[0x7294fcf1d5ee]
+/home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt(+0x1088a60)[0x5cd5756fda60]
+/home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt(+0x4b1e21)[0x5cd574b26e21]
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7294fc02a1ca]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7294fc02a28b]
+/home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt(+0x4d9a85)[0x5cd574b4ea85]
+--- END LIBC BACKTRACE ---
+For more info on how to address this issue, please visit https://www.gem5.org/documentation/general_docs/common-errors/ 
+
+Aborted (core dumped)

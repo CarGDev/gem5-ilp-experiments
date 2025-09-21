@@ -1,0 +1,29 @@
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.1
+gem5 compiled Aug 28 2025 18:18:37
+gem5 started Sep 21 2025 04:05:08
+gem5 executing on cargdevgpu, pid 3120849
+command line: /home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt --outdir=/home/carlos/projects/gem5/gem5-data/results/smt/CMP4 /home/carlos/projects/gem5/gem5src/gem5/configs/deprecated/example/se.py '--cmd=/home/carlos/projects/gem5/gem5-run/memtouch/memtouch;/home/carlos/projects/gem5/gem5-run/memtouch/memtouch;/bin/ls;/bin/echo' --cpu-type=DerivO3CPU --num-cpus=4 --caches --l2cache --l1i_size=32kB --l1d_size=32kB --l2_size=1MB --bp-type=LTAGE --maxinsts=20000000
+
+**** REAL SIMULATION ****
+
+cache_scripts
+gem5-build
+gem5-data
+gem5-run
+gem5src
+parse_bp.sh
+parse_integrated.sh
+parse_smt.sh
+parse_superscalar.sh
+pipeline_sim.sh
+results
+run_bp.sh
+run_cmp.sh
+run_integrated.sh
+run_smt.sh
+run_superscalar.sh
+Exiting @ tick 223205548000 because a thread reached the max instruction count

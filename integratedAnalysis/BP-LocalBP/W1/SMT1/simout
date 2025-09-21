@@ -1,0 +1,12 @@
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.0.1
+gem5 compiled Aug 28 2025 18:18:37
+gem5 started Sep 21 2025 03:09:42
+gem5 executing on cargdevgpu, pid 3082930
+command line: /home/carlos/projects/gem5/gem5src/gem5/build/X86/gem5.opt --outdir=/home/carlos/projects/gem5/gem5-data/results/integrated/BP-LocalBP/W1/SMT1 /home/carlos/projects/gem5/gem5src/gem5/configs/deprecated/example/se.py --cmd=/home/carlos/projects/gem5/gem5-run/memtouch/memtouch --cpu-type=DerivO3CPU --caches --l2cache --l1i_size=32kB --l1d_size=32kB --l2_size=1MB --bp-type=LocalBP --maxinsts=20000000 --num-cpus=1 --param 'system.cpu[0].fetchWidth=1' --param 'system.cpu[0].decodeWidth=1' --param 'system.cpu[0].renameWidth=1' --param 'system.cpu[0].issueWidth=1' --param 'system.cpu[0].commitWidth=1' --param 'system.cpu[0].numROBEntries=64' --param 'system.cpu[0].numIQEntries=32' --param 'system.cpu[0].LQEntries=32' --param 'system.cpu[0].SQEntries=32'
+
+**** REAL SIMULATION ****
+Exiting @ tick 209664235000 because a thread reached the max instruction count
